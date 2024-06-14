@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*font-family: "Tinos", serif;*/
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "Tinos", serif;
+    font-family: "Ubuntu", sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    padding: 0 25px;
+}
+
+.brand img{
+    margin-top: 8px;
+    width:54px;
+    height: auto;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: large;
+}   
+.container{
+    min-height: 60vh;
+    width: 100vh;
+     background-image: url("bg.jpg");
+     background-size: contain;
+  color: white;
+    font-family: "Tinos", serif ;
+    display: flex;
+    margin: 25px auto;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.bottom{
+    position:sticky;
+    height:150px ;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+
+    
+}
+
+#myProgressBar{
+    width: 80vh;
+    cursor: pointer;
+}
+.icons{
+    margin: 15px;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display:flex;
+    background-color: white;
+    width : 270px;
+    color:black;
+    margin: 12px 0;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 34px;
+    
+}
+
+.songItem img{
+    width:43px;
+    margin:0 20px;
+    border-radius: 30px;
+}
+.songInfo{
+    position: absolute;
+    left:20vw;
+    font-family: "Tinos", serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: 0.5s ease-in;
+}
+.timeStamp{
+    margin:5px;
+    padding: 5px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
